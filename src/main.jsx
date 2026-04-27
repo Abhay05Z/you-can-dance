@@ -153,12 +153,12 @@ const paymentPlans = [
 ];
 
 const galleryItems = [
-  { category: "Class", src: "https://abhay05z.github.io/you-can-dance/images/classical.jpg" },
-  { category: "Class", src: "https://abhay05z.github.io/you-can-dance/images/bollywood.jpg" },
-  { category: "Team", src: "https://abhay05z.github.io/you-can-dance/images/team1.jpg" },
-  { category: "Team", src: "https://abhay05z.github.io/you-can-dance/images/team2.jpg" },
-  { category: "Studio", src: "https://abhay05z.github.io/you-can-dance/images/studio1.jpg" },
-  { category: "Studio", src: "https://abhay05z.github.io/you-can-dance/images/studio2.jpg" }
+  { category: "Class", image: "https://abhay05z.github.io/you-can-dance/images/classical.jpg" },
+  { category: "Class", image: "https://abhay05z.github.io/you-can-dance/images/bollywood.jpg" },
+  { category: "Team", image: "https://abhay05z.github.io/you-can-dance/images/team1.jpg" },
+  { category: "Team", image: "https://abhay05z.github.io/you-can-dance/images/team2.jpg" },
+  { category: "Studio", image: "https://abhay05z.github.io/you-can-dance/images/studio1.jpg" },
+  { category: "Studio", image: "https://abhay05z.github.io/you-can-dance/images/studio2.jpg" }
 ];
 
 const translations = {
@@ -776,7 +776,7 @@ function GallerySection() {
       </div>
       <div className="gallery-grid">
         {visible.map((item, idx) => (
-          <img key={item.src + idx} src={item.src} alt={item.category} loading="lazy" />
+          <img key={item.image + idx} src={item.image} alt={item.category} loading="lazy" />
         ))}
       </div>
     </section>
