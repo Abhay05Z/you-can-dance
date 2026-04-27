@@ -46,40 +46,40 @@ const themes = [
 const classes = [
   {
     title: "Classical & Semi-Classical",
-    image: "/images/classical.jpg",
-    preview: "/videos/class1.mp4",
+    image: "https://abhay05z.github.io/you-can-dance/images/classical.jpg",
+    preview: "https://abhay05z.github.io/you-can-dance/videos/class1.mp4",
     text: "Grace, discipline, abhinaya and expressive storytelling shaped for stage confidence.",
     detail: "Technique, mudras, posture, expressions, stage blocking and semi-classical choreography.",
     level: "Beginner"
   },
   {
     title: "Bollywood & Commercial",
-    image: "/images/bollywood.jpg",
-    preview: "/videos/class2.mp4",
+    image: "https://abhay05z.github.io/you-can-dance/images/bollywood.jpg",
+    preview: "https://abhay05z.github.io/you-can-dance/videos/class2.mp4",
     text: "High-energy choreography, screen-ready presence and rhythm that fills the room.",
     detail: "Filmi expression, hook-step performance, commercial grooves and camera-friendly movement.",
     level: "All"
   },
   {
     title: "Contemporary",
-    image: "/images/contemporary.jpg",
-    preview: "/videos/studio.mp4",
+    image: "https://abhay05z.github.io/you-can-dance/images/contemporary.jpg",
+    preview: "https://abhay05z.github.io/you-can-dance/videos/studio.mp4",
     text: "Fluid movement, floor work and emotional phrasing for dancers who want depth.",
     detail: "Release technique, flow, lifts, partner work, musical phrasing and expressive improvisation.",
     level: "Intermediate"
   },
   {
     title: "Hip-Hop",
-    image: "/images/hiphop.jpg",
-    preview: "/videos/cta.mp4",
+    image: "https://abhay05z.github.io/you-can-dance/images/hiphop.jpg",
+    preview: "https://abhay05z.github.io/you-can-dance/videos/cta.mp4",
     text: "Grooves, foundations, musicality and battle-ready performance drills.",
     detail: "Foundations, isolations, grooves, freestyle prompts, stamina and choreography retention.",
     level: "Advanced"
   },
   {
     title: "Fitness Training",
-    image: "/images/fitness.jpg",
-    preview: "/videos/class1.mp4",
+    image: "https://abhay05z.github.io/you-can-dance/images/fitness.jpg",
+    preview: "https://abhay05z.github.io/you-can-dance/videos/class1.mp4",
     text: "Dance-led conditioning, stamina, mobility and strength with infectious momentum.",
     detail: "Cardio choreography, strength circuits, mobility, endurance and body confidence.",
     level: "Beginner"
@@ -92,28 +92,28 @@ const team = [
     role: "PR Manager & Head Instructor",
     image: "https://source.unsplash.com/800x1000/?dance,coach,woman&sig=11",
     bio: "Builds confident artists through precise training, warmth and performance polish.",
-    reel: "/videos/class1.mp4"
+    reel: "https://abhay05z.github.io/you-can-dance/videos/class1.mp4"
   },
   {
     name: "Anusree & Tansuree",
     role: "Tollywood",
     image: "https://source.unsplash.com/800x1000/?dance,teacher,women&sig=12",
     bio: "Bring expressive Tollywood styling, camera presence and joyful stage vocabulary.",
-    reel: "/videos/class2.mp4"
+    reel: "https://abhay05z.github.io/you-can-dance/videos/class2.mp4"
   },
   {
     name: "Dinesh",
     role: "Hip-Hop",
     image: "https://source.unsplash.com/800x1000/?hiphop,instructor,man&sig=13",
     bio: "Leads foundations, grooves and choreography with athletic clarity.",
-    reel: "/videos/studio.mp4"
+    reel: "https://abhay05z.github.io/you-can-dance/videos/studio.mp4"
   },
   {
     name: "Madhuri",
     role: "Bollywood & Fitness",
     image: "https://source.unsplash.com/800x1000/?fitness,dance,coach,woman&sig=14",
     bio: "Combines fitness intensity with filmi expression for magnetic group sessions.",
-    reel: "/videos/cta.mp4"
+    reel: "https://abhay05z.github.io/you-can-dance/videos/cta.mp4"
   }
 ];
 
@@ -153,12 +153,12 @@ const paymentPlans = [
 ];
 
 const galleryItems = [
-  { category: "Class", src: "/images/classical.jpg" },
-  { category: "Class", src: "/images/bollywood.jpg" },
-  { category: "Team", src: "/images/team1.jpg" },
-  { category: "Team", src: "/images/team2.jpg" },
-  { category: "Studio", src: "/images/studio1.jpg" },
-  { category: "Studio", src: "/images/studio2.jpg" }
+  { category: "Class", src: "https://abhay05z.github.io/you-can-dance/images/classical.jpg" },
+  { category: "Class", src: "https://abhay05z.github.io/you-can-dance/images/bollywood.jpg" },
+  { category: "Team", src: "https://abhay05z.github.io/you-can-dance/images/team1.jpg" },
+  { category: "Team", src: "https://abhay05z.github.io/you-can-dance/images/team2.jpg" },
+  { category: "Studio", src: "https://abhay05z.github.io/you-can-dance/images/studio1.jpg" },
+  { category: "Studio", src: "https://abhay05z.github.io/you-can-dance/images/studio2.jpg" }
 ];
 
 const translations = {
@@ -411,7 +411,7 @@ function PageShell({ route, eyebrow, title, subtitle, children }) {
   return (
     <main className={`page page-${route}`} data-barba="container" data-barba-namespace={route}>
       <section className="page-hero">
-        <video className="hero-video hero-video-sub" src="/videos/hero.mp4" autoPlay muted loop playsInline preload="metadata" />
+        <video className="hero-video hero-video-sub" src="https://abhay05z.github.io/you-can-dance/videos/hero.mp4" autoPlay muted loop playsInline preload="metadata" />
         <div className="hero-overlay" />
         <ParticleField />
         <div className="hero-content compact">
@@ -474,7 +474,7 @@ function HomePage({ t }) {
   return (
     <main className="page page-home" data-barba="container" data-barba-namespace="home">
       <section className="hero" id="home">
-        <video className="hero-video" src="/videos/hero.mp4" autoPlay muted loop playsInline preload="metadata" />
+        <video className="hero-video" src="https://abhay05z.github.io/you-can-dance/videos/hero.mp4" autoPlay muted loop playsInline preload="metadata" />
         <div className="hero-overlay" />
         <ParticleField />
         <div className="hero-content">
@@ -534,7 +534,7 @@ function AboutSection() {
           <blockquote className="reveal">"We don't just teach steps-we nurture artists."</blockquote>
         </div>
         <figure className="about-image reveal">
-          <img src="/images/about.jpg" alt="You Can Dance studio performer" loading="lazy" />
+          <img src="https://abhay05z.github.io/you-can-dance/images/about.jpg" alt="You Can Dance studio performer" loading="lazy" />
         </figure>
       </div>
     </section>
@@ -613,9 +613,9 @@ function StudioSection() {
       </div>
       <div className="studio-track">
         {[
-          ["Mirrors", "/images/studio1.jpg"],
-          ["Spacious hall", "/images/studio2.jpg"],
-          ["Training environment", "/images/studio3.jpg"]
+            ["Mirrors", "https://abhay05z.github.io/you-can-dance/images/studio1.jpg"],
+            ["Spacious hall", "https://abhay05z.github.io/you-can-dance/images/studio2.jpg"],
+            ["Training environment", "https://abhay05z.github.io/you-can-dance/images/studio3.jpg"]
         ].map(([label, image]) => (
           <figure className="studio-panel" key={label}>
             <img src={image} alt={label} loading="lazy" />
@@ -876,7 +876,7 @@ function StudioTourSection() {
         <p>Best for: regular classes, private sessions, and rehearsal before events.</p>
       </article>
       <article className="about-image reveal">
-        <video src="/videos/studio.mp4" controls loop playsInline preload="metadata" />
+        <video src="https://abhay05z.github.io/you-can-dance/videos/studio.mp4" controls loop playsInline preload="metadata" />
       </article>
     </section>
   );

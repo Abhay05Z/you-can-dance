@@ -167,7 +167,7 @@ canvas {
     linear-gradient(130deg, rgba(8, 8, 8, 0.66), rgba(8, 8, 8, 0.45)),
     radial-gradient(circle at 20% 20%, color-mix(in srgb, var(--accent-2) 26%, transparent), transparent 48%),
     radial-gradient(circle at 85% 10%, color-mix(in srgb, var(--accent) 18%, transparent), transparent 45%),
-    url("/images/about.jpg") center / cover;
+    url("https://abhay05z.github.io/you-can-dance/images/about.jpg") center / cover;
   opacity: 1;
 }
 
@@ -723,7 +723,7 @@ blockquote {
   background:
     linear-gradient(180deg, var(--bg), color-mix(in srgb, var(--accent-2) 14%, var(--bg))),
     radial-gradient(circle at 15% 50%, color-mix(in srgb, var(--accent) 10%, transparent), transparent 24rem),
-    url("/images/studio1.jpg") center / cover;
+    url("https://abhay05z.github.io/you-can-dance/images/studio1.jpg") center / cover;
 }
 
 .studio-intro {
